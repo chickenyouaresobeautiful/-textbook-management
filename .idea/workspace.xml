@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jcgl:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89cbef17-2df7-431e-be36-f4fdf8a5bf08" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jcgl_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcgl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/dao/BasicDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/dao/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/dao/CartItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/dao/ManagerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/dao/OrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/dao/OrderItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/dao/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/dao/TeacherDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/filter/TransactionFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/pojo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/pojo/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/pojo/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/pojo/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/pojo/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/pojo/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/pojo/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/service/ManagerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/utils/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/utils/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/web/BaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/web/BookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/web/CartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/web/ClientBookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/web/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/web/OrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/web/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/web/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jdw/web/TeacherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/commons-beanutils-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/commons-dbutils-1.7-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/commons-dbutils-1.7-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/commons-dbutils-1.7-test-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/commons-dbutils-1.7-tests.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/druid-1.2.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/gson-2.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/jsp-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/mykaptcha-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/taglibs-standard-impl-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/libs/taglibs-standard-spec-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/cart/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/cart/checkout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/cart/receive.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/common/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/common/manager_menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/common/page_nav.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/error/error404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/error/error500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/book_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/book_manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/orderDetails_manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/order_manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/receive_manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/student_manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/teacher_manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/user_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/order/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/order/orderDetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/order/order_menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/user/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/user/regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/user/student_login_success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/user/teacher_login_success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/img/error404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/img/error500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/img/pwd-icons-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/script/jquery-1.7.2.min.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28yXd5722evspH50hrD06I4ShZc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "D:/IdeaProject/jcgl",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\jcgl\web\pages\manager" />
+      <recent name="D:\IdeaProject\jcgl\src\com\jdw\web" />
+      <recent name="D:\IdeaProject\jcgl\src\com\jdw\pojo" />
+      <recent name="D:\IdeaProject\jcgl\src\com\jdw\dao" />
+      <recent name="D:\IdeaProject\jcgl\web\pages\user" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jdw.test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jdw.service" />
+      <recent name="com.jdw.web" />
+      <recent name="com.jdw.utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.27">
+    <configuration name="UserDAOTest.saveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jcgl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdw.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jdw.test" />
+      <option name="MAIN_CLASS_NAME" value="com.jdw.test.UserDAOTest" />
+      <option name="METHOD_NAME" value="saveUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.registerUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jcgl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdw.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jdw.test" />
+      <option name="MAIN_CLASS_NAME" value="com.jdw.test.UserServiceTest" />
+      <option name="METHOD_NAME" value="registerUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="jcgl:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/jcgl_Web_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="9483ddbc-7efd-4296-8967-568ee22be329" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53644" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="jcgl:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.UserDAOTest.saveUser" />
+      <item itemvalue="JUnit.UserServiceTest.registerUser" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.27" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserDAOTest.saveUser" />
+        <item itemvalue="JUnit.UserServiceTest.registerUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89cbef17-2df7-431e-be36-f4fdf8a5bf08" name="Changes" comment="" />
+      <created>1652189885435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652189885435</updated>
+      <workItem from="1652189887009" duration="3843000" />
+      <workItem from="1652242657592" duration="10635000" />
+      <workItem from="1652264519568" duration="10523000" />
+      <workItem from="1652278903880" duration="4036000" />
+      <workItem from="1652328273329" duration="20673000" />
+      <workItem from="1652350912712" duration="2106000" />
+      <workItem from="1652414844161" duration="872000" />
+      <workItem from="1652421241130" duration="5706000" />
+      <workItem from="1652428790830" duration="15918000" />
+      <workItem from="1652446720176" duration="4536000" />
+      <workItem from="1652503993541" duration="132000" />
+      <workItem from="1652616348321" duration="2228000" />
+      <workItem from="1652624031767" duration="1770000" />
+      <workItem from="1652680374113" duration="4428000" />
+      <workItem from="1652763577029" duration="895000" />
+      <workItem from="1652765529437" duration="190000" />
+      <workItem from="1652783448560" duration="1666000" />
+      <workItem from="1653025821102" duration="1131000" />
+      <workItem from="1673760224221" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="method.override" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
